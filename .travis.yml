@@ -7,6 +7,6 @@ before_deploy:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 deploy:
   - provider: script
-  script: docker push adamperyman/mongo:$TRAVIS_BRANCH
-  on:
-    branch: "*"
+    script: docker push adamperyman/mongo:$TRAVIS_BRANCH
+    on:
+      branch: "*"

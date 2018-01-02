@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 script:
-  - docker build -t adamperyman/mongo:$TRAVIS_BRANCH
+  - docker build -t adamperyman/mongo:$TRAVIS_BRANCH .
 before_deploy:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 deploy:

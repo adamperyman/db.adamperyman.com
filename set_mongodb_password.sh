@@ -27,7 +27,6 @@ fi
 
 sleep 1
 
-mkdir -p /data/adamperyman/
 touch /data/adamperyman/.mongodb_password_set
 
 echo "=> MongoDB configured successfully."

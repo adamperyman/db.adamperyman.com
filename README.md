@@ -1,6 +1,6 @@
 # db.adamperyman.com
 
-A docker image for adamperyman.com's database.
+A mongo image with authorisation for adamperyman.com.
 
 # Usage
 * Data volume must be mounted at `/data/adamperyman/`
@@ -10,3 +10,11 @@ A docker image for adamperyman.com's database.
   - `MONGODB_APPLICATION_DATABASE`
   - `MONGODB_APPLICATION_USER`
   - `MONGODB_APPLICATION_PASS`
+
+## Docker Image
+
+Can be found [here](https://hub.docker.com/r/adamperyman/db.adamperyman.com/).
+
+```
+$ docker pull adamperyman/db.adamperyman.com
+```

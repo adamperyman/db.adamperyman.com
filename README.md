@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Use [happy-mongodb](https://github.com/x0bile/happy-mongodb) instead :)
+
+--
+
 # db.adamperyman.com
 
 A mongo image with authorisation for adamperyman.com.
